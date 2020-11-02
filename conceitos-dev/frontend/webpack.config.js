@@ -13,14 +13,14 @@ module.exports = {
         rules:[
             {
                 test: /\.js$/, // Busca todos os arquivos que terminam com .js
-                exclude: /node-modules/,
+                exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader'
                 }
             },
             {
                 test: /\.css$/,
-                exclude: /node-modules/,
+                exclude: /node_modules/,
                 use: [
                     { loader: 'style-loader' },
                     { loader: 'css-loader' }
