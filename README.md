@@ -30,3 +30,11 @@ Para adicionar o tsconfig usamos:
 yarn tsc --init
 ```
 Quando adicionado podemos simplesmente usar o yarn tsc e todos os arquivos com extensão .ts serão convertidos para .js.
+No arquivo tsconfig.json, se alterarmos a linha:
+```
+"outDir": "./dist", 
+```
+
+O caminho irá salvar todas as conversões considerando a pasta indicada no parametro como raiz, inclusive respitando as subpastas e recriando da mesma forma.
+
+
