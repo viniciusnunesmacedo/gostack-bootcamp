@@ -1,4 +1,4 @@
-# gostack-bootcamp
+# Rocketseat GoStack Bootcamp
 
 
 Para criar package.json
