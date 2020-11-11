@@ -37,4 +37,9 @@ No arquivo tsconfig.json, se alterarmos a linha:
 
 O caminho irá salvar todas as conversões considerando a pasta indicada no parametro como raiz, inclusive respitando as subpastas e recriando da mesma forma.
 
-
+Para instalar type orm e base adapter para o postgres
+yarn add typeorm pg
+Para criar a migration com typeorm
+```
+yarn typeorm migration:create -n CreateAppointments
+```
